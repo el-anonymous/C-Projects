@@ -4,15 +4,17 @@
 
 int main(void)
 {
-  int a, b;
+  int a, b, i, j;
+  a = 10;
+  b = 14;
 
-  for (a = 1; a < 14; a++)
+  for (i = 1; i <= a; i++) 
     {
-      for (b = 1; b < 10; b++)
+      for (j = 1; j <= b; j++)
         {
-          printf("%i", b);
+          printf("%i", j);
         }
-      printf("%i\n", a);
+      printf("\n");
     }
   return 0;
 }
