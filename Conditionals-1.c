@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// This is a code that prints numbers from 1 to 30 but skips 5 and 19
+
+
 int main(void) 
 {
   int a;
